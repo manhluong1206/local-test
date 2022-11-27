@@ -32,7 +32,7 @@ export default function Category() {
               </div>
               <div class="col text-left">
                 <div class="categories__block arcade">
-                  <div class="categories__block img-arcade d-flex justify-content-lg-start align-items-baseline">
+                  <div class="categories__block img-arcade ">
                     <img src={require('../../assets/images/icon-category/adventure.svg').default} />
                   </div>
                   <div class="categories__block text">
