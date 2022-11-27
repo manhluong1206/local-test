@@ -13,6 +13,9 @@
         &.adventure {
             border: 1px solid #cccccc;
             margin: 10px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
         }
         &.img-adventure {
             display: inline-block;
@@ -27,6 +30,9 @@
         &.arcade {
             border: 1px solid #ef5da8;
             margin: 10px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
         }
         &.img-arcade {
             display: inline-block;
@@ -58,6 +64,9 @@
         &.archi {
             border: 1px solid rgba(204, 204, 204, 0.8);
             margin: 10px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
         }
         &.img-archi {
             display: inline-block;
