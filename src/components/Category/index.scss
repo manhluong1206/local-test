@@ -41,6 +41,9 @@
         &.fantasiya {
             border: 1px solid rgba(204, 204, 204, 0.8);
             margin: 10px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
         }
         &.img-fantasiya {
             display: inline-block;

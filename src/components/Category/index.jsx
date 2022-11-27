@@ -12,7 +12,7 @@ export default function Category() {
               <h3>Games categories</h3>
             </div>
             <div class="row">
-              <div class="col text-left">
+              <div class="col">
                 <div class="categories__block adventure">
                   <div class="categories__block img-adventure">
                     <img src={require('../../assets/images/icon-category/adventure.svg').default} />
@@ -21,7 +21,7 @@ export default function Category() {
                     <p>Adventures</p>
                   </div>
                 </div>
-                <div class="categories__block fantasiya d-flex justify-content-lg-start align-baseline">
+                <div class="categories__block fantasiya">
                   <div class="categories__block img-fantasiya">
                     <img src={require('../../assets/images/icon-category/adventure.svg').default} />
                   </div>
@@ -30,7 +30,7 @@ export default function Category() {
                   </div>
                 </div>
               </div>
-              <div class="col text-left">
+              <div class="col">
                 <div class="categories__block arcade">
                   <div class="categories__block img-arcade">
                     <img src={require('../../assets/images/icon-category/adventure.svg').default} />
