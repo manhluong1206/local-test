@@ -13,7 +13,7 @@ export default function Category() {
             </div>
             <div class="row">
               <div class="col text-left">
-                <div class="categories__block adventure d-flex justify-content-lg-start align-items-baseline">
+                <div class="categories__block adventure">
                   <div class="categories__block img-adventure">
                     <img src={require('../../assets/images/icon-category/adventure.svg').default} />
                   </div>
@@ -31,7 +31,7 @@ export default function Category() {
                 </div>
               </div>
               <div class="col text-left">
-                <div class="categories__block arcade d-flex justify-content-lg-start align-items-baseline">
+                <div class="categories__block arcade">
                   <div class="categories__block img-arcade ">
                     <img src={require('../../assets/images/icon-category/adventure.svg').default} />
                   </div>
@@ -40,7 +40,7 @@ export default function Category() {
                   </div>
                 </div>
 
-                <div class="categories__block archi d-flex justify-content-lg-start align-items-baseline">
+                <div class="categories__block archi">
                   <div class="categories__block img-archi">
                     <img src={require('../../assets/images/icon-category/adventure.svg').default} />
                   </div>
